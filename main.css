@@ -1,24 +1,43 @@
-button {
-  background-color: green;
-}
-h1 {
-  color: blue;
-  text-align: center;
-  font-style: bold;
-  font-size: 52px;
-}
-input {
+body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: pink;
-  font-size: 26px;
-  margin-top: 52px;
-  margin: 52px;
-  margin-bottom: 52px;
-}
-body {
-  background-position: center;
+  font-family: "futura";
   text-align: center;
-  background-color: white;
+  background-color: #8484cb;
+
+}
+
+h1 {
+  color: #0e2634;
+  font-family:sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-style: bold;
+  font-size: 40px;
+  margin-bottom: 0px;
+
+}
+
+button {
+  background-color: #e7eff3;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-top: 10px;
+}
+.addOption {
+  margin-top: 10px;
 }

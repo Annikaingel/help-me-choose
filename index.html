@@ -7,15 +7,29 @@
  </head>
   <body>
     <h1> Help Annika choose between.. </h1>
-    <div>
-      <div>
-        <img src="https://i.ytimg.com/vi/Q2-0w0YrsfA/maxresdefault.jpg">
-        <input placeholder="something"></input>
-        <input placeholder="something"></input>
-        <input placeholder="something"></input>
+    <div class="inputSection">
+      <div class="inputs">
+        <input placeholder="write something"></input>
+
       </div>
-      <button>Add</button>
+      <button class="addOption">button</button>
     </div>
+
+    <div class="resultSection"> </div>
+
     <button>Go!</button>
+
+    <script src"https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+    <script>
+    $(function() {
+      $('.resultsection').hide()
+
+      var add_option = function() {
+        $('.inputs').append('<input></input>')
+      }
+
+      $('.addOption').click(add_option)
+    })
+    </script>
   </body>
 </html>
