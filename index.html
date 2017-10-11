@@ -2,34 +2,35 @@
 <html lang="en">
  <head>
    <meta charset="utf-8">
-   <title> Help Annika Choose </title>
+   <title>Help Annika Choose</title>
    <link href="./main.css" rel="stylesheet" type="text/css">
  </head>
   <body>
     <h1> Help Annika choose between.. </h1>
     <div class="inputSection">
       <div class="inputs">
-        <input placeholder="write something"></input>
+        <input placeholder="Something"></input>
 
       </div>
-      <button class="addOption">button</button>
+      <button class="addOption">add</button>
     </div>
 
     <div class="resultSection"> </div>
 
     <button>Go!</button>
 
-    <script src"https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+
+    <script src"https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
-    $(function() {
-      $('.resultsection').hide()
+      $(function() {
+       $('.resultSection').hide()
 
       var add_option = function() {
         $('.inputs').append('<input></input>')
-      }
+       }
 
-      $('.addOption').click(add_option)
-    })
+       $('.addOption').click(add_option)
+      })
     </script>
   </body>
 </html>
