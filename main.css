@@ -5,11 +5,11 @@ body {
   align-items: center;
   font-family: "futura";
   margin-top: 150px;
-  background-color: #8484cb;
+  background-color: #08088A;
 }
 
 h1 {
-  color: #0e2634;
+  color: #00FFFF;
   font-weight: lighter;
   letter-spacing: 2px;
   font-size: 40px;
@@ -46,5 +46,5 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px  
+  font-size: 35px
 }
