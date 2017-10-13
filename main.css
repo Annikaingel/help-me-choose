@@ -20,6 +20,28 @@ h1 {
 
 button {
   background-color: #e7eff3;
+  .myButton {
+	background-color:#8bdde8;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #83e6d9;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 6px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#78ded9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 }
 
 .inputSection {
